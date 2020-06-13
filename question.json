@@ -1,0 +1,230 @@
+{
+    
+    "question" : [
+
+        {   "id"   : "1",
+            "category" : "pwd",
+            "next": "ls",
+
+            "question": "Soru 1",
+            "text" : " GNU/Linux işletim sistemini öğrenmeye yeni başlayan Tux, hangi dizinde olduğunu unutuyor. \n Tux'ın bulunduğu dizini öğrenmesi için hangi komutu kullanması gerekir ? ",
+            "answer" : "pwd",
+            "output" : "/home/tux"
+            
+        },
+
+        {   "id"   : "2",
+            "category" : "ls",
+            "next": "cd",
+
+            "question": "Soru 2",
+            "text" : " Bulunduğu dizini öğrenen Tux, bu dizindeki dosya ve dizinleri listelemek istiyor.\n Tux'ın bu isteğini gerçekleştirmek için hangi komutu kullanması gerekir ? ",
+            "answer" : "ls",
+            "output" : "total 8\n-rw-r--r--  1 tux tux   653 Ara 10 23:12  notlarım\ndrwxrwxr-x  2 tux tux  4096 Mar  3 22:06 derslerim"
+            
+        },
+
+        {   "id"   : "3",
+            "category" : "cd",
+            "next": "man",
+
+            "question": "Soru 3",
+            "text" : " Derslerim dizinine girmek isteyen Tux, hangi komut/komutları kullanmalıdır ? ",
+            "answer" : "cd derslerim",
+            "output" : "/home/tux/derslerim"
+            
+        },
+
+        {   "id"   : "4",
+            "category" : "man",
+            "next": "mkdir",
+
+            "question": "Soru 4",
+            "text" : " Derslerim dizininin içinde önceki derslerde öğrendiği ls komutu ile alt alta sıralama yapmak isteyen Tux kullanması gereken komutu unutuyor.\n Tux'ın ls komutunun dökümanını görmek için hangi komutu kullanması gerekir ?  ",
+            "answer" : "man ls",
+            "output" : "NAME\nls - list directory contents\nSYNOPSIS\nls [OPTION]... [FILE]...\nDESCRIPTION\nList  information  about  the FILEs (the current directory by default).\nSort entries alp....."
+            
+        },
+
+        {   "id"   : "5",
+            "category" : "mkdir",
+            "next": "nano",
+
+            "question": "Soru 5",
+            "text" : " Derslerim dizininin içinde 'uçmaderslerim' adında bir dizin oluşturmak isteyen Tux, hangi komut/komutları kullanması gerekir ? ",
+            "answer" : "mkdir uçmaderslerim",
+            "output" : "total 8\n-rw-r--r--  1 tux tux   653 Ara 10 23:12  notlarım\ndrwxrwxr-x  2 tux tux  4096 Mar  3 22:06 uçmaderslerim"
+            
+        },
+
+        {   "id"   : "6",
+            "category" : "nano",
+            "next": "cat",
+
+            "question": "Soru 6",
+            "text" : " Tux, uçmaderslerim dizininin içine konularını not almak için penguenleruçarmı adında bir dosya oluşturup içinde değişiklik yapmak istiyor.\n Tux'ın bu işlemi gerçekleştirmesi için hangi komut/komutları kullanması gerekir ?  ",
+            "answer" : "nano penguenleruçarmı",
+            "output" : "Dosya İçeriği : \n\n Normal koşullarda kuşların uçabilmesi için, kanatlarıyla yere doğru kendi ağırlıklarını kaldırabilecek kadar hava göndermesi gerekiyor. Ancak bunun hızlıca ve sürekli olarak yapılmasıyla uçma sağlanabilir; ama penguenlerin kanatları... "            
+        },
+
+        {   "id"   : "7",
+            "category" : "cat",
+            "next": "mv",
+
+            "question": "Soru 7",
+            "text" : " Nano ile oluşturup, içeriğini değiştirdiği penguenleruçarmı dosyasını ekrana bastırmak isteyen Tux hangi komut/komutları kullanmalıdır ? ",
+            "answer" : "cat penguenleruçarmı",
+            "output" : " Normal koşullarda kuşların uçabilmesi için, kanatlarıyla yere doğru kendi ağırlıklarını kaldırabilecek kadar hava göndermesi gerekiyor. Ancak bunun hızlıca ve sürekli olarak yapılmasıyla uçma sağlanabilir; ama penguenlerin kanatları... "
+            
+        },
+
+        {   "id"   : "8",
+            "category" : "mv",
+            "next": "rm",
+
+            "question": "Soru 8",
+            "text" : " penguenleruçarmı adındaki dosyanın adını, penguenlernedenuçmuyor olarak değiştirmek isteyen Tux, bu işlemi gerçekleştirmek için hangi komut/komutları kullanmalıdır ? ",
+            "answer" : "mv penguenleruçarmı penguenlernedenuçmuyor",
+            "output" : "total 8\n-rw-r--r--  1 tux tux   653 Ara 10 23:12  notlarım\ndrwxrwxr-x  2 tux tux  4096 Mar  3 22:06 penguenlernedenuçmuyor"
+            
+        },
+
+        {   "id"   : "9",
+            "category" : "rm",
+            "next": "touch",
+
+            "question": "Soru 9",
+            "text" : " Penguenlerin asla uçamayacağını öğrenen Tux, penguenlernedenuçmuyor adlı dosyaya aldığı notları içeren dosyayı silmek istiyor. Bu işlemi gerçekleştirmek için hangi komut/komutları kullanması gerekir ? ",
+            "answer" : "rm -rf penguenlernedenuçmuyor",
+            "output" : "total 8\n-rw-r--r--  1 tux tux   653 Ara 10 23:12  notlarım"
+            
+        },
+
+        {   "id"   : "10",
+            "category" : "touch",
+            "next" : "last ",
+
+            "question": "Soru 10",
+            "text" : " Penguenlerin yeniden uçması için çalışmalar yürütmeye başlayan Tux Penguenler Uçsun adında bir kampanya başlatıyor. Bu kampanyanın metnini hazırlamak için şimdilik penguenleruçsun adında boş bir dosya oluşturmak isteyen Tux, bu işlemi gerçekleştirmek için hangi komut/komutları kullanmalıdır ? ",
+            "answer" : "touch penguenleruçsun",
+            "output" : "total 8\n-rw-r--r--  1 tux tux   653 Ara 10 23:12  notlarım\ndrwxrwxr-x  2 tux tux  4096 Mar  3 22:06 penguenleruçsun"
+            
+        },
+
+        {   "id"   : "11",
+            "category" : "clear",
+            "next" : "sudo",
+
+            "question": "Soru 1",
+            "text" : " 'cat' komutu ile terminal ekranına masaüstündeki kampanya metnini bastırmak isteyen Tux, yanlışlıkla annesinin balık tariflerini yazdığı dosyayı terminal ekranına bastırıyor. Yaptığı bu dikkatsizlikten dolayı terminal ekranını temizlemek isteyen Tux, hangi komut/komutları kullanmalıdır ?",
+            "answer" : "clear",
+            "output" : " "
+            
+        },
+
+        {   "id"   : "12",
+            "category" : "sudo",
+            "next" : "apropos",
+
+            "question": "Soru 2",
+            "text" : " Tux sistem kayıtlarını görüntülemek için 'cat /var/log/syslog' komut dizisini terminalde çalıştırmakta ancak her defasında [Permission denied] hatası almaktadır. Tux bu komut dizisini hangi şekilde çalıştırırsa sistem kayıtlarını listeleyebilir ? ",
+            "answer" : "sudo cat /var/log/syslog",
+            "output" : " "
+            
+        },
+
+        {   "id"   : "13",
+            "category" : "apropos",
+            "next" : "free",
+
+            "question": "Soru 3",
+            "text" : " Tux man komutunun açıklamasını öğrenmek istemektedir. Bunun için hangi komut/komutları kullanmalıdır ?",
+            "answer" : "apropos man",
+            "output" : ""
+            
+        },
+
+        {   "id"   : "14",
+            "category" : "free",
+            "next" : "uptime",
+
+            "question": "Soru 4",
+            "text" : " Bilgisayarı sürekli olarak donan Tux, RAM'inin tamamen dolduğundan şüphelenmektedir. Anlık olarak RAM'in boşluğunu sorgulamak için hangi komut/komutları kullanması gerekir ?",
+            "answer" : "free",
+            "output" : ""
+            
+        },
+
+        {   "id"   : "15",
+            "category" : "uptime",
+            "next" : "su",
+
+            "question": "Soru 5",
+            "text" : " Bilgisayar başında Linux komutlarını öğrenmeye dalan Tux, kaç saattir çalıştığını merak etmektedir. Tux'ın bilgisayarı açtığı ilk andan beri çalıştığı varsayılırsa, Tux hangi komut/komutları kullanarak çalışma süresini öğrenebilir ?",
+            "answer" : "uptime",
+            "output" : ""
+            
+        },
+
+        {   "id"   : "16",
+            "category" : "su",
+            "next" : "xkill",
+
+            "question": "Soru 6",
+            "text" : " Tux'ın bilgisayarında annetux adında bir kullanıcı hesabı bulunan Anne Tux, aile fotoğraflarını bu bilgisayarda yedeklemektedir. Anne Tux'ın yedeklerinden kendi bebeklik fotoğraflarını bulmak isteyen Tux, [Permission denied] hatası ile karşılaşmaktadır. Anne Tux'ın şifresini bilen Tux, annesinin hesabına geçmek için hangi komut/komutları kullanmalıdır ?",
+            "answer" : "su annetux",
+            "output" : ""
+            
+        },
+
+        {   "id"   : "17",
+            "category" : "xkill",
+            "next" : "sort",
+
+            "question": "Soru 7",
+            "text" : " Tux internet tarayıcısı üzerinden arama yaparken bir anda tarayıcı yanıt vermemektedir hatası ile karşılaşmıştır. Tarayıcıyı kapatamayan Tux'ın hangi komut ile görsel arayüzden tarayıcıyı kapatabilir ?",
+            "answer" : "xkill",
+            "output" : ""
+            
+        },
+
+        {   "id"   : "18",
+            "category" : "sort",
+            "next" : "wget",
+
+            "question": "Soru 8",
+            "text" : " Linux üzerinde Düzenli İfadeler (Regular Expressions) konusuna merak salan Tux, düzenlemek istediği dosyanın satırlarını önce alfabetik olarak sıralamak istemektedir. regex.txt ismindeki bu dosyaya istediği işlemi uygulaması için hangi komut/komutları kullanması gerekmektedir ?",
+            "answer" : "sort regex.txt",
+            "output" : ""
+            
+        },
+
+        {   "id"   : "19",
+            "category" : "wget",
+            "next" : "sort",
+
+            "question": "Soru 9",
+            "text" : " Kendisini anlattığı web sitesi olan merhababentux.com ' un yedeklerini kaybeden Tux, sitenin dosyalarını indirmek için hangi Linux komut/komutlarını kullanmalıdır ?",
+            "answer" : "wget merhababentux.com",
+            "output" : ""
+            
+        },
+
+        {   "id"   : "20",
+            "category" : "top",
+            "next" : "last ",
+
+            "question": "Soru 10",
+            "text" : " Bilgisayarı üzerinde çalışan uygulamaları görmek isteyen Tux, hangi komut/komutları kullanmalıdır ?",
+            "answer" : "top",
+            "output" : ""
+            
+        }
+
+
+
+
+       
+       
+    ]
+}

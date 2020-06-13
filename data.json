@@ -1,0 +1,176 @@
+{
+    
+    "commands" : [
+
+        {   "id"   : "1",
+            "name" : "pwd",
+            "title": "pwd - Print Working Directory",
+            "text" : "- İçinde bulunulan dizinin tam dosya yolunu basar.\n- Jim Meyering tarafından yazılmıştır.\n",
+            "link" : "https://www.youtube.com/embed/siGYk9CQpmE"
+
+        },
+
+        {   "id"   : "2",
+            "name" : "ls",
+            "title": "ls - List Directory Contents",
+            "text" : "- Kullanım: ls [SEÇENEK]... [DOSYA]..\n- Bulunulan dizindeki dosyaları listeler.\n- -a, --all . ile başlayan girdileri saklamaz.\n- -l uzun listeleme biçemi kullanır.\n",
+            "link" : "https://www.youtube.com/embed/zb5VsPlmvoI"
+
+        },
+
+        {   "id"   : "3",
+            "name" : "cd",
+            "title": "cd - Change Directory",
+            "text" : "- Kullanım: cd [-L|-P] [dir]\n- Bir dizinden bir başkasına geçmek için kullanılır.\n- Üst dizini belirtmek için: cd ..\n",
+            "link" : "https://www.youtube.com/embed/5XDIvpTIedk"
+
+        },
+
+        {   "id"   : "4",
+            "name" : "man",
+            "title": "man - Manual",
+            "text" : "- Kullanım: man komut_adı\n- man kılavuz sayfalarını biçimler ve görüntüler.\n",
+            "link" : "https://www.youtube.com/embed/eZ8cM0uTt-Q"
+
+        },
+
+        {   "id"   : "5",
+            "name" : "mkdir",
+            "title": "mkdir - Make Directory",
+            "text" : "- Kullanım: mkdir dizin_adı\n- Dizin oluşturmak için kullanılır.\n- Unix'in önceki sürümlerinde (BSD 4.1 öncesinde) bu komut yoktu. Onun yerine dizinler mknod ile oluşturuluyordu ve iç içe olan dizinler tek tek yapılıyordu.\n",
+            "link" : "https://www.youtube.com/embed/PkFM2hcmtDA"
+
+        },
+
+        {   "id"   : "6",
+            "name" : "nano",
+            "title": "nano - Nano's ANOther Editor",
+            "text" : "- Kullanım: nano dosya_adı\n- Nano GNU/Linux tabanlı işletim sistemlerindeki basit editörlerden biridir. Bir not defteri oluşturmanıza yarar.\n",
+            "link" : "https://www.youtube.com/embed/GGbOjylrEZc"
+
+        },
+
+        {   "id"   : "7",
+            "name" : "cat",
+            "title": "cat - Concatenate",
+            "text" : "- Kullanım: cat [DOSYA]\n- Parametre olarak aldığı dosyayı ekrana basar.\n- cat kaynak.txt > hedef.txt şeklinde kullanılırsa kaynak dosyasındaki sonucu hedefe yönlendirir.\n- cat kaynak.txt >> hedef.txt şeklinde kullanırsa kaynak dosyasındaki içeriği de hedefe yönlendirir.\n",
+            "link" : "https://www.youtube.com/embed/7N_sGZNoD7Q"
+
+        },
+
+        {   "id"   : "8",
+            "name" : "mv",
+            "title": "mv - Move",
+            "text" : "- Kullanım: mv [KAYNAK] [HEDEF]\n- Kaynağı hedef olarak yeniden adlandırır veya kaynakları dizine taşır.\n",
+            "link" : "https://www.youtube.com/embed/6Qmwk_7fLJE"
+
+        },
+
+        {   "id"   : "9",
+            "name" : "rm",
+            "title": "rm - Remove",
+            "text" : "- Kullanım: Rm dosya_adı\n- Rm dizinleri içindekilerle birlikte silmek için kullanılır.\n- Genellikle 'rm -rf' şeklinde kullanılır. Bu şekilde kullanılırsa sistem üzerindeki her şeyi silme yetkisine sahip olur.\n",
+            "link" : "https://www.youtube.com/embed/1wTADOeq6yA"
+
+        },
+
+
+        {   "id"   : "10",
+            "name" : "touch",
+            "title": "touch - Change File Timestamps",
+            "text" : "- Kullanım: touch dosya_adı\n- Boş bir dosya oluşturmaya yarar.\n",
+            "link" : "https://www.youtube.com/embed/ldcbRfN56SA"
+
+        },
+
+
+        {   "id"   : "11",
+            "name" : "clear",
+            "title": "clear - Clear the Terminal Screen",
+            "text" : "- Kullanım: clear\n- Mevcut terminal ekranını temizlemeye yarar.\n",
+            "link" : "https://www.youtube.com/embed/nAZjbr4c0N8"
+
+        },
+
+
+        {   "id"   : "12",
+            "name" : "sudo",
+            "title": "sudo - Execute a Command as Another User",
+            "text" : "- Kullanım: sudo [islem]\n- Sudo ile yaygın bir yanılgı, yalnızca sıradan bir kullanıcıya kök izinlerini sağlamak için kullanılmasıdır. Ama aslında, bu komut, varsayılan olarak root olan bir kullanıcı tarafından komut çalıştırmanıza izin verir.\n- Eğer terminale uzun bir kod yazdıysanız ve ‘Permission Denied’ hatası aldıysanız ' sudo ! ! ' komutu ile tekrar yazmaktan kurtulabilirsiniz.",
+            "link" : "https://www.youtube.com/embed/XiZlTtHFSuM"
+
+        },
+
+
+        {   "id"   : "13",
+            "name" : "apropos",
+            "title": "apropos - Search the Manual Pages and Descriptions",
+            "text" : "- Kullanım: apropos [anahtar_kelime] \n- Komut kılavuz dosyaları (man pages) kendi içlerinde tanım bilgileri içerirler.\n- Bu komut bütün açıklama dosyalarının tanımlarını tarar ve şayet bu tanımlar ile “anahtar_kelime” arasında bir eşleşme var ise eşleşen komutun adini ve tanımlamasını çıktı olarak verir.\n",
+            "link" : "https://www.youtube.com/embed/T9HaJG6AZYA"
+
+        },
+
+
+        {   "id"   : "14",
+            "name" : "free",
+            "title": "free - Display Amount of Free Memory in the System",
+            "text" : "- Kullanım: free\n- Sistemdeki kullanılan ve boş olan bellek miktarını gösterir.\n",
+            "link" : "https://www.youtube.com/embed/p5TDAzN3TE0"
+
+        },
+
+
+        {   "id"   : "15",
+            "name" : "uptime",
+            "title": "uptime - Tell How Long the System Has Been Running",
+            "text" : "- Kullanım: uptime\n- Sistemin ne kadar süreden beri kesintisiz çalıştığına dair bilgi verir. Listelenen bilgiler şunlardan ibarettir: o anki saat, ne kadar süredir sistem çalışıyor, sistemdeki aktif kullanıcı sayısı, geçen 1, 5 ve 15 dakikadaki sistemin yük ortalaması.\n",
+            "link" : "https://www.youtube.com/embed/4bks6fB4MU4"
+
+        },
+
+
+        {   "id"   : "16",
+            "name" : "su",
+            "title": "su - Switch User",
+            "text" : "- Kullanım: su [kullanıcı_adı]\n- Sistemdeki başka bir kullanıcıya ya da kök kullanıcısına (root) geçmeyi sağlar.\n",
+            "link" : "https://www.youtube.com/embed/WssON5-VEGk"
+
+        },
+
+
+        {   "id"   : "17",
+            "name" : "xkill",
+            "title": "xKill - Kill a Client by Its X Resource",
+            "text" : "- Kullanım: xkill [kapatılmak istenen pencereye tıkla]\n- Yanıt vermeyen pencereleri kapatmak için kullanılır.\n",
+            "link" : "https://www.youtube.com/embed/vywy-DiGM3M"
+
+        },
+
+
+        {   "id"   : "18",
+            "name" : "sort",
+            "title": "sort - Sort Lines of Text Files",
+            "text" : "- Kullanım: sort [dosya_adı]\n- Parametre olarak verilen dosyayı alfabetik olarak sıralar..\n",
+            "link" : "https://www.youtube.com/embed/OlM05BVawYw"
+
+        },
+
+
+        {   "id"   : "19",
+            "name" : "wget",
+            "title": "wget - The Non-interactive Network Downloader",
+            "text" : "- Kullanım: wget [link]\n- İnternetten dosya indirmek icin kullanılır. HTTP, HTTPS ve FTP protokollerini destekler.\n",
+            "link" : "https://www.youtube.com/embed/Ne7FVBOmRuw"
+
+        },
+
+
+        {   "id"   : "20",
+            "name" : "top",
+            "title": "top - Display Linux Processes",
+            "text" : "- Kullanım: top\n- Sistemde çalışan uygulamaları listeler.\n- Kill komutu ile beraber kullanıldığında pid sayıları vasıtasıyla uygulamalar kapatılabilir.\n",
+            "link" : "https://www.youtube.com/embed/nAZjbr4c0N8"
+
+        }
+    ]
+}
